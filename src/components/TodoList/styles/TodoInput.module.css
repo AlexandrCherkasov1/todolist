@@ -1,0 +1,50 @@
+.inputContainer {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.addButton {
+    padding: 10px 20px;
+    background: #4A90E2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+    
+.clearButton {
+    padding: 10px 20px;
+    background: #E24A4A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+    
+.addButton:hover {
+    background: #357ABD;
+    }
+    
+.clearButton:hover {
+    background: #BD3535;
+}
