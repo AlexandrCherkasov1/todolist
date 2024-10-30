@@ -27,7 +27,7 @@
 ## Установка и запуск
 
 1. Клонируйте репозиторий:
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/AlexandrCherkasov1/todolist.git)
 2. Установите зависимости:
    npm install
 3. Запустите приложение:
